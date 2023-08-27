@@ -1,6 +1,6 @@
 {
   "name": "formatxt",
-  "displayName": "formaTXT",
+  "displayName": "FormaTXT",
   "description": "Format your .txt file: make every line the same length while preserving paragraphs",
   "version": "1.0.0",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "extension.formaTXT",
-        "title": "Format your .txt file"
+        "title": "FormaTXT: format your .txt file"
       }
     ]
   },
