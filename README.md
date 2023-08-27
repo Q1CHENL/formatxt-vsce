@@ -10,3 +10,6 @@ Format your .txt file: make every line the same length while preserving paragrap
 Note that only .txt file are supported now.
 
 ![Demo GIF](demo.gif)
+
+## Source Code
+https://github.com/Q1CHENL/formatxt-vscode-extension
