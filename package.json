@@ -3,6 +3,7 @@
   "displayName": "formaTXT",
   "description": "Format your .txt file: make every line the same length while preserving paragraphs",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -19,10 +20,11 @@
       }
     ]
   },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/Q1CHENL/formatxt-vscode-extension.git"
-  },
+  },  
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",
