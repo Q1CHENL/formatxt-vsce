@@ -1,15 +1,15 @@
-# FormaTXT: A plaintext formatter
-Format your .txt file: make every line the same length while preserving paragraphs
+# FormaTXT: A Plain Text Formatter
+Easily format your .txt files—or any other plaintext files—by making every line the same length while preserving paragraphs.
 
-## How to use
-1. Trigger command palette (`Ctrl + Shift + p`) for the current .txt file
-2. Search for `FormaTXT` and select
-3. Press `Enter` to specify a line width or go with the default width
-4. Press `Enter` again to format your .txt file </br>
+## How to Use
+1. Open the Command Palette in your current .txt file by pressing `Ctrl + Shift + P`.
+2. Type "FormaTXT" in the search bar and select it.
+3. Press `Enter` to specify a custom line width or stick with the default width.
+4. Press `Enter` again to format your .txt file.
 
-Note that only .txt file are supported now.
+> **Note:** If you're working with a non-.txt file, the extension will prompt you to confirm whether you want to proceed.
 
 ![Demo GIF](demo.gif)
 
 ## Source Code
-https://github.com/Q1CHENL/formatxt-vscode-extension
+Find the source code for this extension on [GitHub](https://github.com/Q1CHENL/formatxt-vscode-extension).

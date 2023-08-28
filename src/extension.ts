@@ -8,6 +8,16 @@ export function activate(context: vscode.ExtensionContext) {
         if (editor) {
             const document = editor.document;
             const fileName = document.fileName;
+            if (!fileName.endsWith(".txt")) {
+                // if the file is not txt, pop up a window to ask user if he user wants to proceed
+                const proceed = await vscode.window.showWarningMessage(
+                    'The file is not a .txt file. Do you want to proceed?',
+                    'Yes', 'No'
+                );
+                if (proceed != 'Yes') {
+                    return;
+                }
+            }
 
             // Save the document before formatting to make sure we're working with the latest version of the file
             await document.save();
