@@ -12,4 +12,4 @@ Easily format your .txt files—or any other plaintext files—by making every l
 ![Demo GIF](demo.gif)
 
 ## Source Code
-Find the source code for this extension on [GitHub](https://github.com/Q1CHENL/formatxt-vscode-extension).
+Find the source code for this extension on [GitHub](https://github.com/Q1CHENL/formatxt-vsce).
