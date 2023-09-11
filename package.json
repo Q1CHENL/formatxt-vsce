@@ -2,7 +2,7 @@
   "name": "formatxt",
   "displayName": "FormaTXT",
   "description": "Format your .txt file: make every line the same length while preserving paragraphs",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.81.0"
