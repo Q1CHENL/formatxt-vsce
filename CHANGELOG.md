@@ -3,11 +3,17 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
+## [1.2.0] - 2023-09-11
+### Added
 - Format a specific block of text in a file
+
 ## [1.1.1] - 2023-08-28
 
 ### Added
+
 - New icon created by [lalawidi](https://www.flaticon.com/authors/lalawidi)
+
 ## [1.1.0] - 2023-08-28
 
 ### Added
@@ -20,8 +26,8 @@ All notable changes to this project will be documented in this file.
 
 - Initial release
 
-
 [unreleased]: https://github.com/Q1CHENL/formatxt-vsce
+[1.2.0]: https://github.com/Q1CHENL/formatxt-vsce
 [1.1.1]: https://github.com/Q1CHENL/formatxt-vsce
 [1.1.0]: https://github.com/Q1CHENL/formatxt-vsce
 [1.0.0]: https://github.com/Q1CHENL/formatxt-vsce
