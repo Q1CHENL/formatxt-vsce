@@ -12,6 +12,7 @@ Easily format your .txt files—or any other plaintext files—by making every l
 4. Press `Enter` again to format your .txt file.
 
 > **Note:** If you're working with a non-.txt file, the extension will prompt you to confirm whether you want to proceed.
+
 ![Demo GIF](assets/demo.gif)
 
 ### Format a certain text block
