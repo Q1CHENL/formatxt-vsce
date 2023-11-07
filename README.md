@@ -2,6 +2,9 @@
 
 Easily format your .txt files—or any other plaintext files—by making every line the same length while preserving paragraphs.
 
+## Requirements
+python3 need to be installed
+
 ## How to Use
 
 ### Format an entire file

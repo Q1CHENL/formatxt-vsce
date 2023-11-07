@@ -1,6 +1,7 @@
 out
 dist
 node_modules
+.DS_STORE
 .vscode-test/
 *.vsix
 .history

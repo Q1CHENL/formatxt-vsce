@@ -35,7 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
             const scriptPath = path.join(context.extensionPath, 'script', 'formatxt.py');
 
             // Run the Python script with child_process
-            child_process.exec(`python ${scriptPath} ${fileName} ${width}`, (error, stdout, stderr) => {
+            child_process.exec(`python3 ${scriptPath} ${fileName} ${width}`, (error, stdout, stderr) => {
                 if (error) {
                     vscode.window.showErrorMessage(`Error running FormatXT: ${error}`);
                     return;
@@ -85,7 +85,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             // Run your Python script on the temporary file
             const scriptPath = path.join(context.extensionPath, 'script', 'formatxt.py');
-            child_process.exec(`python ${scriptPath} ${tmpFile.name} 90`, (error, stdout, stderr) => {
+            child_process.exec(`python3 ${scriptPath} ${tmpFile.name} 90`, (error, stdout, stderr) => {
                 if (error) {
                     vscode.window.showErrorMessage(`Error running FormatXT: ${error}`);
                     return;
@@ -145,7 +145,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             // Run your Python script on the temporary file
             const scriptPath = path.join(context.extensionPath, 'script', 'formatxt.py');
-            child_process.exec(`python ${scriptPath} ${tmpFile.name} ${width}`, (error, stdout, stderr) => {
+            child_process.exec(`python3 ${scriptPath} ${tmpFile.name} ${width}`, (error, stdout, stderr) => {
                 if (error) {
                     vscode.window.showErrorMessage(`Error running FormatXT: ${error}`);
                     return;
