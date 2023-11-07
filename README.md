@@ -15,6 +15,7 @@ python3 need to be installed
 4. Press `Enter` again to format your .txt file.
 
 > **Note:** If you're working with a non-.txt file, the extension will prompt you to confirm whether you want to proceed.
+
 ![Demo GIF](assets/demo.gif)
 
 ### Format a certain text block
@@ -23,8 +24,12 @@ python3 need to be installed
 2. Right-click to open the context menu
 3. Choose to either format the text using the default line width or specify a custom line width.
 >**Note:** If you do not select a complete block of text, you will be prompted to confirm whether you want to proceed.
+
+
+
 ![Demo GIF Selected](assets/demo-selected.gif)
 
-## Source Code
+## Links
 
-Find the source code for this extension on [GitHub](https://github.com/Q1CHENL/formatxt-vsce). Give it a star if you find it useful ^_^
+- Find the source code for this extension on [GitHub](https://github.com/Q1CHENL/formatxt-vsce). Give it a star if you find it useful ^_^
+- Find the extension also in [vscode extension marketplace](https://marketplace.visualstudio.com/items?itemName=qichenliu.formatxt).
